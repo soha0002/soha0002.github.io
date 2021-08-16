@@ -10,6 +10,7 @@ body {
 a {
 	color: royalblue;
 }
+
 div {
 	color:rgb(252, 145, 229)
 }
@@ -47,16 +48,16 @@ div.subtitle2 {
 	display: inline-block;
 	margin-left: 450px;
 	margin-top: 40px;
-	vertical-align: left;
-	
+	vertical-align: left;	
 }
 
 div.image {
 	padding-left: 20px;
 	padding-top: 50px;
+	padding-bottom: 40px;
 }
 
 div.image2 {
-	vertical-align: top;
-	padding-right: 20px;
+	padding-top: 50px;
+	padding-left: 20px;
 }
