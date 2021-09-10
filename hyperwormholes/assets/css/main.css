@@ -3,9 +3,6 @@ body {
 	font-size: 20px;
 }
 
-a {
-	color:rgb(255, 0, 221);
-}
 
 /* General */
 
@@ -24,6 +21,38 @@ a {
 	src: url('fonts/Fresh\ Rubezahl\ -\ Regular\ version1.otf');
 }
 
+a {
+	color:rgb(255, 0, 221);
+	text-decoration: none;
+	border-radius: 80px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+a:hover {
+	background-color: rgb(255, 0, 221);
+	color: white;
+}
+
+div.centreimage {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'stationdisplay';
+	text-align: left;
+}
+
+.content a {
+color: black;
+}
+
+.content a:hover {
+	color: blueviolet;
+	background-color: transparent;
+}
+
+
+
 /* index page */
 
 
@@ -41,6 +70,8 @@ a {
 	height: 33.333vw;
 	text-align: center;
 	font-family: 'stationdisplay';
+	font-weight: bolder;
+	font-size: 30px;
   }
   
   .cell.large {
@@ -63,7 +94,7 @@ a {
 	background-color: yellow;
   }
 
-  .cell.green {
+  .cell.green1 {
 	background-color: green;
   }
   
@@ -77,18 +108,30 @@ a {
   img {
 	width: 100%;
 	padding: 20px;
+	border-radius: 40px;
   }
 
-  /* sweden page */
+  /* sweden volvo page */
 
   body.swedenpage {
-	  background-color:whitesmoke;
+	background: rgb(255,76,0);
+	background: linear-gradient(0deg, rgba(255,76,0,1) 0%, rgba(255,239,127,1) 100%);
   }
 
   div.title{
 	  font-size: 180px;
 	  text-align: right;
 	  padding: 20px;
+  }
+  
+  .volvosign {
+	background-color: rgb(0, 255, 64);
+	border-radius: 50px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
   }
 
   .right {
@@ -143,18 +186,68 @@ a {
 	transition: 2s;
   }
 
-  div.beans {
-	  margin-bottom: 180px;
+  div.no a {
+	  color: greenyellow;
   }
 
-  /* drunk page */
+  div.no a:hover {
+	background-color: yellow;
+	color: rgb(108, 0, 141);
+  }
+
+  div.righttitlearrow a {
+	  color: black;
+  }
+
+
+
+
+  /* volvo2 bakery page */
+
+  body.bakerypage {
+	background-color: darkslategray;
+  }
+
+  div.title{
+	  font-size: 180px;
+	  text-align: right;
+	  padding: 20px;
+  }
+  
+  .volvo2sign {
+	background-color: hotpink;
+	border-radius: 50px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+  }
+
+  .green {
+	background-color: rgb(0, 255, 64);
+	border-radius: 20px;
+}
+
+.blackwhite img {
+  filter: grayscale(400);
+  transition: 1s;
+}
+
+.blackwhite:hover img {
+	filter: grayscale(0);
+	transition: 1s;
+}
+
+  /* drunk sign */
 
   body.drunkpage {
 	  background-color: black;
   }
 
+
   div.alert {
-	  font-size: 150px;
+	  font-size: 100px;
 	  font-family: "stationdisplay";
 	  color: white;
 	  background-color: blue;
@@ -163,12 +256,13 @@ a {
 	  margin-left: auto;
 	  margin-right: auto;
 	  margin-top: 60px;
-	  margin-bottom: 40px;
+	  margin-bottom: 20px;
   }
 
   div.choices {
 	  display: flex;
 	  flex-wrap: wrap;
+	  margin-bottom: 60px;
   }
 
   div.yes {
@@ -182,23 +276,83 @@ a {
 	  color: green;
   }
 
-  /* north page */
+  /* beans page */
+
+  body.beanspage {
+	background-color: rgb(255, 115, 0);
+  }
+
+
+  .beanscell {
+	background-color: rgb(156, 248, 194);
+	border-radius: 30px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+  }
+
+  .speechN {
+	background-color: rgb(136, 109, 255);
+	border-radius: 20px; 
+	color: white;
+  }
+ 
+  div.beans {
+	margin-bottom: 40px;
+	}
+
+	div.beans a {
+		color: black;
+	}
+	
+	div.beans a:hover {
+	  color: rgb(195, 0, 255);
+	  background-color: transparent;
+	}
+ 
+ 
+  /* stop page */
+  
+  body.stoppage {
+	  background-color: red;
+  }
+
+  .stop {
+	  width: 80%;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-top: 80px;
+  }
+
 
   /* mini page */
+
+  body.minipage {
+	background: rgb(80,167,255);
+	background: linear-gradient(180deg, rgba(80,167,255,1) 0%, rgba(9,0,157,1) 100%);
+  }
 
   div.london {
 	  text-align: right;
 	  font-size: 100px;
 	  margin-right: 20px;
+	  font-weight: 900;
+	  margin-bottom: 20px;
+	  margin-top: 20px;
+	  font-family: "stationdisplay";
   }
+
 
   div.londonsign {
 	background-color: yellow;
 	border-radius: 50px;
-	width: 96%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 20px;
+	margin-bottom: 40px;
   }
 
   .speech {
@@ -218,6 +372,161 @@ a {
 	border-radius: 100px;
   }
 
+  .londonbutton a {
+	color: black;
+	text-decoration: none;
+	font-size: 100px;
+  }
 
-  
-  
+  /* eurostar page */
+
+  body.eurostar {
+	  background-color: rgb(24, 24, 24);
+  }
+
+  /* audi berlin page */
+
+  body.berlinpage {
+	  background: rgb(9,0,157);background: linear-gradient(0deg, rgba(9,0,157,1) 0%, rgba(189,127,255,1) 100%);
+  }
+
+  .audisign {
+	background-color: rgba(21, 255, 118, 0.836);
+	border-radius: 40px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+  }
+
+  div.berlintitle {
+	text-align: right;
+	font-size: 200px;
+	margin-right: 20px;
+	font-weight: 900;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-family: "stationdisplay";
+}
+
+div.berlin {
+	text-align: right;
+	font-size: 80px;
+	margin-right: 20px;
+	font-weight: 900;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	font-family: "stationdisplay";
+}
+
+div.berlintitle a {
+	color: black;
+}
+
+div.berlintitle a:hover {
+  color: rgb(195, 0, 255);
+  background-color: transparent;
+}
+
+div.left .speech a {
+	color: black;
+}
+
+div.left .speech a:hover {
+	color: chartreuse;
+	background-color: transparent;
+}
+
+.berlinbutton {
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	line-height: 220px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	border-radius: 100px;
+  }
+
+  .berlinbutton a {
+	text-decoration: none;
+	font-size: 100px;
+  }
+
+  .berlinbutton a:hover {
+	text-decoration: none;
+	font-size: 100px;
+	background-color: transparent;
+  }
+
+ /* nightlife page */
+
+ body.nightlifepage {
+	background-color: darkslateblue;
+  }
+
+.nightsign {
+	background-color: darkslateblue;
+	border-radius: 40px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+  }
+
+  div.berlin2 {
+	text-align: right;
+	font-size: 80px;
+	margin-right: 20px;
+	font-weight: 900;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	font-family: "stationdisplay";
+	color: white;
+}
+
+div.berlin2 a {
+	color: white;
+}
+
+div.berlin2 a:hover {
+	background-color: white;
+	color: white;
+}
+
+.speechB {
+	background-color: rgb(109, 255, 128);
+	border-radius: 20px;
+  }
+
+.speechC {
+	background-color: rgb(255, 126, 109);
+	border-radius: 20px;
+  }
+
+.foggy {
+	font-family: 'stationdisplay';
+}
+
+.foggy img {
+	filter: blur(60px);
+	transition: 2s;
+}
+
+.foggy img:hover {
+	filter: blur(8px);
+	transition: 2s;
+}
+
+.centrespeech {
+	width: 50%;
+	padding: 20px;
+	font-family: 'stationdisplay';
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
