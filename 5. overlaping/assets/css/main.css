@@ -1,0 +1,61 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+}
+
+a {
+	color:red;
+}
+
+.main {
+	padding: 20px;
+}
+
+.text {
+	margin: 20px;
+}
+
+.circles {
+	display: flex;
+	flex-wrap: wrap;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+.circle {
+	width: 33.33vw;
+	height: 30vh;
+	border-radius: 100%;
+	border: 1px solid black;
+}
+
+.circle.fill {
+	background-color: blueviolet;
+	filter: blur(50px);
+	transition: 0.5s;
+}
+
+.circle.fill:hover {
+	background-color: transparent;
+}
+
+.circle.glow {
+	transition: 0.5s;
+}
+
+.circle.glow:hover {
+	background-color: mediumseagreen;
+	filter: blur(50px);
+}
+
+.circle.grow {
+	transition: 0.5s;
+}
+
+.circle.grow:hover {
+	width: 50vw;
+	height: 60vh;
+	background-color: cornflowerblue;
+	filter:blur(30px);
+}

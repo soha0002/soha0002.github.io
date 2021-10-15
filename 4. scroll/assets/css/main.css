@@ -1,0 +1,107 @@
+body {
+	font-family: monospace;
+	font-size: 24px;
+}
+
+a {
+	color:red;
+}
+
+/* animation */
+
+.box1 {
+	width: 300px;
+	height: 300px;
+	background-color: darkblue;
+	transition:1s;
+}
+
+.box1:hover {
+	background-color: red;
+	border-radius: 100%;
+	width: 800px;
+	height: 800px;
+}
+
+.circle1 {
+	width: 300px;
+	height: 300px;
+	background-color: darkorchid;
+	border-radius: 100%;
+	animation: circle 2s infinite alternate linear;
+}
+
+@keyframes circle {
+	0% {
+		background-color: darkorchid;
+		width: 300px;
+	}
+
+	50% {
+		background-color: green;
+		width: 700px;
+	}
+
+	100% {
+		background-color: salmon;
+		width: 150px;
+	}
+}
+
+/* index page */
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background-color: fuchsia;
+	border-radius: 100px;
+}
+
+.curve {
+	width: 200px;
+	height: 200px;
+	background-color: blueviolet;
+	border-radius: 20px;
+}
+
+.box{
+	width: 300px;
+	height: 300px;
+	background-color: cadetblue;
+}
+
+.oval {
+	width: 100vw;
+	height: 10vh;
+	background-color: crimson;
+	border-radius: 60%;
+}
+
+/* home */
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.leftside{
+	width: 30%;
+	background-color: aquamarine;
+	padding: 10px;
+	overflow: hidden;
+	overflow: scroll;
+}
+
+.nav {
+	width: 100%;
+	background-color: blueviolet;
+	color: chocolate;
+	padding: 10px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+.start {
+	margin-top: 50px;
+}

@@ -1,0 +1,165 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+/* home */
+
+.nav {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 44px;
+	background-color: blue;
+
+}
+
+.main {
+	width: 400vh;
+	display: flex;
+	overflow: scroll;
+	margin-top: 45px;
+}
+
+
+.col1 {
+	width: 20vw;
+	height: 700px;
+	overflow: scroll;
+	font-size: 14px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.col2 {
+	width: 50vw;
+	height: 600px;
+	overflow: scroll;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+.col3 {
+	width: 55vw;
+	height: 600px;
+	overflow: scroll;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.circle {
+	height: 15vh;
+	width: 15vh;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	border-radius: 100%;
+	transition: 1s;
+}
+
+.circle:hover {
+	border-radius: 100%;
+	height: 40vh;
+	width: 40vh;
+	background-color: blue;
+}
+
+.col4 {
+	height: 500px;
+	width: 10vw;
+	overflow: scroll;
+}
+
+.col4 img {
+	width: 30vw;
+}
+
+.col5 {
+	width: 20vw;
+	height: 700px;
+	overflow: scroll;
+	color: blue;
+	font-size: 18px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.box1 {
+	width: 300px;
+	height: 300px;
+	background-color: darkblue;
+	transition:1s;
+}
+
+.box1:hover {
+	background-color: red;
+	border-radius: 100%;
+	width: 800px;
+	height: 800px;
+}
+
+.circle1 {
+	width: 300px;
+	height: 300px;
+	background-color: darkorchid;
+	border-radius: 100%;
+	animation: circle 2s infinite alternate linear;
+}
+
+@keyframes circle {
+	0% {
+		background-color: darkorchid;
+		width: 300px;
+	}
+
+	50% {
+		background-color: green;
+		width: 700px;
+	}
+
+	100% {
+		background-color: salmon;
+		width: 150px;
+	}
+}
+
+
+/* landing */
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.leftside{
+	width: 30%;
+	background-color: black;
+	color: bisque;
+	padding: 10px;
+	overflow: hidden;
+	overflow: scroll;
+	font-size: 20px;
+}
+
+.navi {
+	width: 100%;
+	background-color: blueviolet;
+	color: chocolate;
+	padding: 10px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.start {
+	margin-top: 50px;
+}
