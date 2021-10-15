@@ -43,7 +43,7 @@ a {
 
 .col2 {
 	width: 50vw;
-	height: 600px;
+	height: 700px;
 	overflow: scroll;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -52,7 +52,7 @@ a {
 
 .col3 {
 	width: 55vw;
-	height: 600px;
+	height: 700px;
 	overflow: scroll;
 	font-size: 20px;
 	padding-left: 10px;
@@ -60,13 +60,19 @@ a {
 }
 
 .col4 {
-	height: 300px;
+	height: 30vh;
 	width: 15vw;
 	overflow: scroll;
 }
 
 .col4 img {
-	width: 30vw;
+	height: 25vh;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+
+.col4 img:hover {
+	filter: none;
 }
 
 .col5 {
@@ -74,49 +80,21 @@ a {
 	height: 700px;
 	overflow: scroll;
 	color: blue;
-	font-size: 18px;
+	font-size: 14px;
 	padding-left: 2px;
 	padding-right: 2px;
 }
 
-.box1 {
-	width: 300px;
-	height: 300px;
-	background-color: darkblue;
-	transition:1s;
+.marquee_text {
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 7rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+	overflow: hidden;
 }
 
-.box1:hover {
-	background-color: red;
-	border-radius: 100%;
-	width: 800px;
-	height: 800px;
-}
-
-.circle1 {
-	width: 300px;
-	height: 300px;
-	background-color: darkorchid;
-	border-radius: 100%;
-	animation: circle 2s infinite alternate linear;
-}
-
-@keyframes circle {
-	0% {
-		background-color: darkorchid;
-		width: 300px;
-	}
-
-	50% {
-		background-color: green;
-		width: 700px;
-	}
-
-	100% {
-		background-color: salmon;
-		width: 150px;
-	}
-}
 
 
 /* landing */
