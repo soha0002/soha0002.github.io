@@ -7,3 +7,5 @@ $('.marquee_text').marquee({
     duplicated: true,
     startVisible: true
 });
+
+
