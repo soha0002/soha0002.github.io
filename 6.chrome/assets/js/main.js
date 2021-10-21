@@ -18,6 +18,9 @@ $( document ).ready(function() {
         duplicated: true,
         startVisible: true
     });
+    $('.nav').click(function() {
+        $('.menu').toggleClass('showme');
+      });
 });
 
 
