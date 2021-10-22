@@ -124,7 +124,8 @@ a {
 	transform: rotate(90deg);
 	transform-origin: bottom left;
 	font-family: 'truenobldit';
-	padding-left: 300px;
+	padding-left: 200px;
+	padding-bottom: 5px;
 }
 
 
@@ -226,7 +227,7 @@ a {
 	padding-right: 10px;
 }
 .image1 {
-	width: 60vw;
+	width: 20vw;
 	height: 87.15vh;
 	overflow: scroll;
 }
