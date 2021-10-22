@@ -217,6 +217,11 @@ a {
 	padding-right: 10px;
 	color: blue;
 }
+.image1 {
+	width: 60vw;
+	height: 87.15vh;
+	overflow: scroll;
+}
 
 .col3 {
 	width: 55vw;
