@@ -103,7 +103,7 @@ a {
 	width: 20vw;
 	height: 87.15vh;
 	overflow: scroll;
-	font-size: 16px;
+	font-size: 18px;
 	font-family: 'trueno';
 	padding-left: 10px;
 	padding-right: 10px;
@@ -141,39 +141,38 @@ a {
 .col2 .middle {
 	width: 75%;
 	padding: 20px;
-	background-color: rgb(24, 24, 24);
+	border: 2px solid black;
 	border-radius: 40px;
   	margin-left: auto;
 	margin-right: auto;
   	margin-bottom: 5px;
 	padding-top: 15px;
-	color: white;
 }
 
 .col2 .right {
 	width: 75%;
 	padding: 20px;
-	background-color: rgba(0, 0, 255, 0.753);
+	border: 2px solid blue;
 	border-top-right-radius: 40px;
 	border-bottom-left-radius: 40px;
 	border-top-left-radius: 40px;
   	padding-top: 15px;
   	margin-left: auto;
 	margin-bottom: 5px;
-	color: white;
+	color: blue;
 }
 
 .col2 .left {
 	width: 75%;
 	padding: 20px;
-	background-color: rgb(123, 176, 255);
+	border: 2px solid rgb(123, 176, 255);
 	border-top-right-radius: 40px;
 	border-bottom-right-radius: 40px;
 	border-top-left-radius: 40px;
   	padding-top: 15px;
   	margin-right: auto;
 	margin-bottom: 5px;
-	color: white;
+	color: rgb(123, 176, 255);
 }
 
 .col2 .bar {
@@ -183,7 +182,7 @@ a {
   	padding-top: 10px;
   	margin-right: auto;
 	margin-bottom: 5px;
-	padding: 10px;
+	padding: 2px;
 }
 
 .col2 .bar2 {
@@ -193,13 +192,23 @@ a {
   	padding-top: 10px;
   	margin-right: auto;
 	margin-bottom: 5px;
-	padding: 10px;
+	padding: 2px;
+}
+
+.col2 .bar3 {
+	width: 100%;
+	background-color: rgb(109, 255, 89);
+	border-radius: 40px;
+  	padding-top: 10px;
+  	margin-right: auto;
+	margin-bottom: 5px;
+	padding: 2px;
 }
 
 .col2 .circle {
 	width: 40px;
 	height: 40px;
-	background-color: rgba(0, 0, 255, 0.753);
+	border: 2px solid blue;
 	border-radius: 40px;
   	padding-top: 10px;
   	margin-right: auto;
@@ -215,12 +224,15 @@ a {
 	font-family: 'truenobld';
 	padding-left: 10px;
 	padding-right: 10px;
-	color: blue;
 }
 .image1 {
 	width: 60vw;
 	height: 87.15vh;
 	overflow: scroll;
+}
+
+.image1 img {
+	filter: grayscale(100%);
 }
 
 .col3 {
@@ -245,9 +257,11 @@ a {
 	transition: 1s;
 }
 
+/*
 .col4 img:hover {
 	filter: none;
 }
+*/
 
 .col5 {
 	width: 20vw;
