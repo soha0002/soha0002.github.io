@@ -98,7 +98,7 @@ a {
   }
 
 .main {
-	width: 400vh;
+	width: 700vw;
 	display: flex;
 	overflow: scroll;
 	margin-top: 45px;
@@ -213,7 +213,7 @@ a {
 	color: rgb(123, 176, 255);
 }
 
-.right {
+.rightbub {
 	width: 49%;
 	padding: 20px;
 	border: 2px solid black;
@@ -225,7 +225,7 @@ a {
 	display: inline-flex;
 }
 
-.left {
+.leftbub {
 	width: 49%;
 	padding: 20px;
 	border: 2px solid black;
@@ -269,7 +269,7 @@ a {
 
 
 .col2 {
-	width: 40vw;
+	width: 30vw;
 	height: 87.15vh;
 	overflow: scroll;
 	font-size:30px;
@@ -278,14 +278,25 @@ a {
 	padding-right: 10px;
 }
 
+.col2text {
+	text-indent: -1em;
+	margin-left: 1em;
+}
+
 .col3 {
 	width: 60vw;
 	height: 87.15vh;
 	overflow: scroll;
-	font-size: 50px;
+	font-size: 45px;
 	font-family: 'trueno';
 	padding-left: 10px;
 	padding-right: 10px;
+	
+}
+
+.col3text {
+	text-indent: 2em;
+	
 }
 
 .image1 {
@@ -299,14 +310,14 @@ a {
 	height: 87vh;
 }
 
-.col4 {
-	width: 55vw;
+.col3_2 {
+	width: 40vw;
 	height: 87.15vh;
 	overflow: scroll;
 	font-size: 20px;
 	padding-left: 10px;
 	padding-right: 10px;
-	font-family: 'TruenoRoundIt';
+	font-family: 'Trueno';
 }
 
 .image2 {
@@ -343,17 +354,27 @@ a {
 }
 
 .col6 {
-	width: 80vw;
+	width: 40vw;
 	height: 87.15vh;
 	padding-left: 10px;
 	padding-right: 10px;
+	overflow: scroll;
+	font-size: 60px;
+	font-family: 'trueno';
+}
+
+.col6_2 {
+	width: 70vw;
+	height: 87.15vh;
+	padding-left: 15px;
+	padding-right: 15px;
 	overflow: scroll;
 	font-size: 22px;
 	font-family: 'trueno';
 	text-align: justify;
 }
 
-.col6_2 {
+.col6_3 {
 	width: 40vw;
 	height: 87.15vh;
 	padding-left: 10px;

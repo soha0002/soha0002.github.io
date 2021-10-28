@@ -4,7 +4,7 @@ body {
 	font-size: 50px;
 	color: blue;
 	justify-content: center;
-	background-color: rgb(102, 45, 4);
+	background-color: rgb(116, 65, 0);
 }
 
 a {
@@ -22,6 +22,16 @@ div.name {
 	font-style: italic;
 	text-decoration: underline;
 	padding-left: 20px;
+}
+.emoji {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.emoji1 {
+	margin-top: 200px;
+	margin-bottom: 200px;
 }
 
 div.subtitle {
