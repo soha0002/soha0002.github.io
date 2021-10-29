@@ -387,6 +387,7 @@ a {
 	font-size: 22px;
 	font-family: 'trueno';
 	text-align: justify;
+	text-transform: capitalize;
 }
 
 .col6_3 {
