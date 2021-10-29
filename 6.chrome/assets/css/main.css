@@ -133,6 +133,17 @@ a {
 	padding-bottom: 20px;
 }
 
+.headerblack {
+	font-size: 24px;
+	font-family: 'termina';
+	top: 0px;
+	position: sticky;
+	background-color: black;
+	color: white;
+	padding-top: 4px;
+	padding-bottom: 20px;
+}
+
 .item {
 	display: inline-flex;
 	margin-right: 0px;
@@ -318,6 +329,8 @@ a {
 	padding-left: 10px;
 	padding-right: 10px;
 	font-family: 'Trueno';
+	background-color: black;
+	color: white;
 }
 
 .image2 {
