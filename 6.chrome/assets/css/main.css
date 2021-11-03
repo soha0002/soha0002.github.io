@@ -75,14 +75,27 @@ a {
 	width: 50vw;
 	background-color: blue;
 	position: fixed;
-	right: -50vw;
+	right: 0;
 	top: 0px;
 	z-index: 1;
 	transition: all 2s;
 	color: white;
 	font-family: 'trueno';
-
+	animation: menu 2s;
 }
+
+@keyframes menu {
+	0% {
+		right: -50vw;
+	}
+
+	100% {
+		right: 0;
+	}
+}
+
+
+
 .container1 {
 	text-align: left;
 	padding-left: 20px;
@@ -93,9 +106,9 @@ a {
 }
 
 .menu.showme {
-	right: 0;
+	right: -50vw;
 	transition: all 1s;
-  }
+}
 
 .main {
 	width: 320vw;
@@ -309,11 +322,14 @@ a {
 	width: 60vw;
 	height: 87.15vh;
 	overflow: scroll;
-	font-size: 60px;
+	font-size: 58px;
 	font-family: 'trueno';
 	padding-left: 10px;
 	padding-right: 10px;
-	
+}
+
+.col3 p {
+	margin-bottom: 80px;
 }
 
 .col3_2 {
@@ -326,11 +342,6 @@ a {
 	font-family: 'Trueno';
 	background-color: blue;
 	color: white;
-}
-
-.col3text {
-	text-indent: 2em;
-	
 }
 
 .image1 {
@@ -391,7 +402,7 @@ a {
 }
 
 .col4_2 {
-	width: 20vw;
+	width: 25vw;
 	height: 87.15vh;
 	padding-left: 10px;
 	padding-right: 10px;
