@@ -4,7 +4,8 @@ body {
 }
 
 a {
-	color:red;
+	color:blue;
+	
 }
 
 @font-face {
@@ -111,7 +112,7 @@ a {
 }
 
 .main {
-	width: 320vw;
+	width: 492vw;
 	display: flex;
 	overflow: scroll;
 	margin-top: 45px;
@@ -128,7 +129,7 @@ a {
 	width: 80vh;
 	font-size: 30px;
 	overflow: auto;
-	color: black;
+	color: blue;
 	transform: rotate(90deg);
 	transform-origin: bottom left;
 	font-family: 'termina';
@@ -175,6 +176,7 @@ a {
 	padding-bottom: 20px;
 	display: flex;
 	flex-wrap: wrap;
+	color: blue;
 }
 
 .headerblue {
@@ -190,12 +192,11 @@ a {
 
 .item {
 	margin-left: auto;
-	font-size: 18px;
 }
 
 .circle {
-	width: 14px;
-	height: 14px;
+	width: 20px;
+	height: 20px;
 	border: 2px solid blue;
 	border-top-right-radius: 40px;
 	border-bottom-left-radius: 40px;
@@ -209,7 +210,7 @@ a {
 }
 
 .col1 {
-	width: 20vw;
+	width: 15vw;
 	height: 87.15vh;
 	overflow: scroll;
 	font-size: 18px;
@@ -218,16 +219,24 @@ a {
 	padding-right: 10px;
 }
 
-
+.col1 p {
+	margin-bottom: 15px;
+	color: blue;
+}
 
 .col1_2 {
-	width: 60vw;
+	width: 90vw;
 	height: 87.15vh;
 	overflow: scroll;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 	font-size: 18px;
 	font-family: 'trueno';
+}
+
+.podcast_text {
+	padding-left: 120px;
+	padding-right: 120px;
 }
 
 .col1_2 .middle {
@@ -302,7 +311,7 @@ a {
 
 
 .col2 {
-	width: 30vw;
+	width: 60vw;
 	height: 87.15vh;
 	overflow: scroll;
 	font-size:32px;
@@ -313,13 +322,15 @@ a {
 	color: white;
 }
 
-.col2text {
-	text-indent: -1em;
-	margin-left: 1em;
+.col2text p {
+	margin-bottom: 30px;
+	padding-left: 220px;
+	padding-right: 220px;
 }
 
+
 .col3 {
-	width: 60vw;
+	width: 90vw;
 	height: 87.15vh;
 	overflow: scroll;
 	font-size: 58px;
@@ -328,20 +339,35 @@ a {
 	padding-right: 10px;
 }
 
+.col3text {
+	margin-left: 15vw;
+	margin-right: 15vw;
+	color: blue;
+}
+
 .col3 p {
 	margin-bottom: 80px;
 }
 
 .col3_2 {
-	width: 40vw;
+	width: 90vw;
 	height: 87.15vh;
 	overflow: scroll;
-	font-size: 18px;
+	font-size: 32px;
 	padding-left: 10px;
 	padding-right: 10px;
 	font-family: 'Trueno';
 	background-color: blue;
 	color: white;
+}
+
+.text3_2text {
+	margin-left: 20vw;
+	margin-right: 20vw;
+}
+
+.col3_2 p {
+	margin-bottom: 30px;
 }
 
 .image1 {
@@ -391,14 +417,41 @@ a {
 
 
 .col4 {
-	width: 70vw;
+	width: 90vw;
 	height: 87.15vh;
 	padding-left: 15px;
 	padding-right: 15px;
 	overflow: scroll;
-	font-size: 18px;
+	font-size: 32px;
 	font-family: 'trueno';
-	text-align: justify;
+}
+
+.col4text {
+	text-indent: 60px;
+	padding-left: 20vw;
+	padding-right: 20vw;
+	color: blue;
+	line-height: 40px;
+}
+
+.subt {
+	color: blue;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 50px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+.backwards {
+	display: inline- block; 
+	-moz-transform: scale(-1, 1);
+	-webkit-transform: scale(-1, 1);
+	-o-transform: scale(-1, 1);
+	-ms-transform: scale(-1, 1);
+	transform: scale(-1, 1);
 }
 
 .col4_2 {
